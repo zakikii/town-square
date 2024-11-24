@@ -14,6 +14,7 @@ class ActivityCard extends ConsumerWidget {
     required this.price,
     required this.location,
     required this.availability,
+    required this.spots,
   });
 
   final String time;
@@ -22,6 +23,7 @@ class ActivityCard extends ConsumerWidget {
   final String price;
   final String location;
   final bool availability;
+  final int spots;
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
@@ -135,7 +137,7 @@ class ActivityCard extends ConsumerWidget {
                         child: CardLabel(
                           icon: Icons.person_outline_rounded,
                           color: theme.darkGrey,
-                          text: '8 spots left',
+                          text: '$spots spots left',
                         ),
                       ),
                       Padding(

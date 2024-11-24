@@ -71,7 +71,7 @@ class _HomePageState extends ConsumerState<HomePage> {
       body: DraggableHome(
         actions: [_buildAppBarAvatar()],
         curvedBodyRadius: 0,
-        headerExpandedHeight: 0.365,
+        headerExpandedHeight: 0.38,
         backgroundColor: theme.white,
         headerWidget: Padding(
           padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 20),

@@ -192,6 +192,7 @@ class ActivityList extends ConsumerWidget {
                                       price: activity.price,
                                       location: activity.location,
                                       availability: activity.available,
+                                      spots: activity.spots,
                                     ),
                                   ),
                                 ),
@@ -221,6 +222,7 @@ class ActivityList extends ConsumerWidget {
                               child: Hero(
                                 tag: 'activity-${activity.title}',
                                 child: ActivityCard(
+                                  spots: activity.spots,
                                   time: activity.time,
                                   duration: activity.duration,
                                   title: activity.title,
