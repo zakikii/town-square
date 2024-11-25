@@ -73,6 +73,7 @@ Clean architecture principles
 - Add activity sharing capabilities with deep linking support
 - Implement search functionality with auto-suggestions based on previous activities
 ###Visual Improvements
+- Add icon app
 - Add skeleton loading animations while data is being fetched
 - Implement custom animations for the category filter pills
 - Create smoother transitions for the activity cards when filtering
