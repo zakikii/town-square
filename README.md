@@ -1,6 +1,6 @@
 # townsquare_by_alwanzaki
 
-My first mini task for step 2 was on Celebreak using flutter with Riverpod (P.S. is this the most popular state management)
+My first mini task for step 2 was on Celebreak using flutter with Riverpod (P.S. this is the most popular state management)
 
 ## Getting Started
 
